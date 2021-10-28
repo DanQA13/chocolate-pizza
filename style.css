@@ -1,114 +1,172 @@
 {
-    box-sizing: border-box;
-  }
-  body {
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  header div {
-    display: inline-block;
-    margin-top: 2em;
-    
-  }
-  
-  h4 {
-    font-family: 'Pacifico', cursive; 
-    font-style:italic;
-    font-size: 2.3em;
-  }
-  
-  h5 {
-     
-    color: grey;
-    font-size: 13px;
-    margin-left: 7px;
-  
-  }
-  
-  header ul {
-  
-    float: right;
-    margin-top: 2.5em;
-    margin-left: 10px;
-  
-  }
-  
-  header ul li {
-    display: inline-block;
-  
-  }
-  
-  header ul:last-child {
-    margin-left: 4em;
-  }
-  
- 
-  h1 {
-    font-size: 30px;
-    margin-top: 1em;
-  }
-  
-  h2 {
-     
-    font-size: 13px;
-    color: grey;
-  }
-  
-  #chocoPizza {
-    width: 100%;
-    margin-top: 1.5rem;
-  
-  }
-  
-   #list{
-  width: 100%;
-  }
-  
-  
-  main div form label {
-    display: block;
-  }
-  
-  p {
-    text-indent: 30px;
-    margin-top: 30px;
-  
-  }
-  
-  button{
-    background-color: #944d3b; 
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-  hr{
-border:1px solid black
-  
+  box-sizing: border-box;
+}
+body {
+  width: 70%;
+  margin: 0 auto;
 }
 
-  section{
-      display: flex;
-      justify-content: space-between;
-  }
+header div {
+  display: inline-block;
+  margin-top: 2em;
+}
 
-  #print{
-margin-top: 4rem;
-  }
+h4 {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-size: 2.3em;
+}
 
-  .pizza p{
+h5 {
+  color: grey;
+  font-size: 9.5px;
+  margin-left: 7px;
+  margin-top: 2.5px;
+  opacity: 50%;
+}
 
-display:inline;
-color:grey;
-font-size: 14px;
+header ul {
+  float: right;
+  margin-top: 2.5em;
+  margin-left: 10px;
+}
 
-  }
+header ul li {
+  display: inline-block;
+}
 
-  .pizza h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
+header ul:last-child {
+  margin-left: 4em;
+}
 
-  }
+h1 {
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 13px;
+  color: grey;
+  opacity: 50%;
+}
+
+#chocoPizza {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+#list {
+  width: 100%;
+}
+
+main div form label {
+  display: block;
+}
+
+.para p {
+  text-indent: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #944d3b;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#print {
+  margin-top: 4rem;
+}
+
+.pizza p {
+  display: inline;
+  color: grey;
+  font-size: 14px;
+  opacity: 50%;
+}
+
+.pizza h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.pizza h2 {
+  font-size: 10.5px;
+}
+
+.hr img {
+  color: white;
+  opacity: 0;
+}
+
+.hr {
+  background-image: url('https://raw.githubusercontent.com/codefellows/seattle-code-201n24/main/class-10/lab-a/lab-assets/hr-img.png');
+  background-repeat: repeat-x;
+  background-size: 8px;
+  margin-top: 1.5rem;
+}
+
+.list {
+  margin-top: 1.5rem;
+  background-image: url('https://github.com/codefellows/seattle-code-201n24/blob/main/class-10/lab-a/lab-assets/list-bg.png');
+}
+
+.footer {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 1rem;
+}
+
+.vanessa {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.vanessa p {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  color: gray;
+}
+
+.btn {
+  position: absolute;
+  right: 245px;
+}
+
+.vanessa h3 {
+  font-weight: bold;
+}
+
+.utenstil {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.utenstil img {
+  opacity: 50%;
+}
+
+.utenstil hr {
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1.5rem;
+  opacity: 50%;
+  margin-bottom: 4rem;
+}
